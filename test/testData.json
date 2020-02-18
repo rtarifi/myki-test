@@ -1,0 +1,52 @@
+{
+  "employee": {
+    "_id": "test-EMPLOYEE2",
+    "type": "employee",
+    "name": "test-EMPLOYEE2",
+    "access": {
+      "test-ITEM2": 1,
+      "test-FOLDER2": 2
+    }
+  },
+  "employee2": {
+    "_id": "test-EMPLOYEE3",
+    "type": "employee",
+    "name": "test-EMPLOYEE3",
+    "access": {
+    }
+  },
+  "team": {
+    "_id": "test-TEAM2",
+    "type": "team",
+    "name": "test-TEAM2",
+    "team": [
+      "test-EMPLOYEE1",
+      "test-EMPLOYEE2"
+    ],
+    "access": {
+      "test-ITEM2": 2,
+      "test-FOLDER2": 1
+    }
+  },
+  "folder": {
+    "_id": "test-FOLDER2",
+    "type": "folder",
+    "name": "archives",
+    "description": "this is a test folder",
+    "items": [
+      "test-ITEM3"
+    ]
+  },
+  "item": {
+    "_id": "test-ITEM2",
+    "type": "item",
+    "name": "item2",
+    "description": "this is test item"
+  },
+  "item2": {
+    "_id": "test-ITEM3",
+    "type": "item",
+    "name": "item3",
+    "description": "this is test item"
+  }
+}
